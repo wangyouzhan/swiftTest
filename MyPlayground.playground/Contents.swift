@@ -63,15 +63,67 @@ let score3 = (chinese:40, math:80)
 //welcome(name: "dd", message: "wang")
 
 
-func gcd(_ a:Int, _ b:Int) -> Int{
-    return 0;
+//func gcd(_ a:Int, _ b:Int) -> Int{
+//    return 0;
+//}
+//
+//gcd(0, 2)
+//
+//func swapTwoInsts(_ a: inout Int, _ b: inout Int){
+//    (a,b) = (b,a);
+//}
+//
+
+var sores = [23,12,34,5]
+sores = sores.sorted(by: >)
+//sores.reverse()
+//sores
+
+sores.reversed()
+
+
+for i in (1...5).reversed(){
+    print(i);
 }
 
-gcd(0, 2)
 
-func swapTwoInsts(_ a: inout Int, _ b: inout Int){
-    (a,b) = (b,a);
+
+
+let vector = (4, 0)
+
+if case(let x, 0) = vector, x > 2 && x < 5 {
+    print("ddd")
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
